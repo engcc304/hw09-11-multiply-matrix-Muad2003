@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW09/hw09-11-Multiply-Matrix.cpp",
+      "run": "./a.out",
+      "input": "2 5\r\n2 5 3 8 3\r\n2 5 3 1 1\r\n5 2\r\n2 3\r\n4 4\r\n1 2\r\n1 1\r\n2 3",
+      "output": "Array1\r\n2 5 3 8 3\r\n2 5 3 1 1\r\nArray2\r\n2 3\r\n4 4\r\n1 2\r\n1 1\r\n2 3\r\nArray1 x Array2\r\n41 49\r\n30 36",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
